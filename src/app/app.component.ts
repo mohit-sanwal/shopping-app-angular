@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit{
   title = 'shopping-app-angular';
-  featureValue = 'recipe'
+  featureValue = 'shopping'
 
   onNavigate(fetureData: string) {
     console.log('displayInfo', fetureData)

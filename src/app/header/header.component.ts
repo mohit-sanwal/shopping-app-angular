@@ -16,11 +16,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
     
   }
-  
+
   onSelect(feature: string) {
-     this.isRecipe = true;
-     this.isShoppingList =false;
-     this.featureSelected.emit(feature)
+     this.featureSelected.emit(feature);
      console.log('onRecipesClick', this.featureSelected)
   }
 
